@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: rgba(168, 168, 168, 0.74);
+    height: 100vh;
 }
 
 header {
@@ -10,7 +11,13 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color: black;
-    height: 50px;
+    height: 5vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo-nav {
@@ -19,10 +26,40 @@ header {
     width: 40px;
 }
 
+.logo-nome {
+    color: white;
+}
+
 nav a {
     padding: 0 7px 0 7px;
     color: white;
     text-decoration: none;
+    transition: 0.5s;
+}
+
+.background-tela {
+    background-image: url('../img/background_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 95vh;
+    opacity: 0.8;
+}
+
+.background-text {
+    position: absolute;
+    color: white;
+    width: 50vw;
+    font-size: 1.7rem;
+    text-align: center;
+    font-style: italic;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1.0;
+}
+
+.titulo-um {
+    font-size: 5rem;
 }
 
 .row {
@@ -87,4 +124,28 @@ nav a {
     font-size: 18px;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 100%;
+    bottom:0;
+    left:0;
+    height: 3rem;
+}
+
+.footer-endereco {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.footer-restaurante {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
