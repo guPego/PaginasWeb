@@ -1,0 +1,90 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(168, 168, 168, 0.74);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+}
+
+.logo-nav {
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+
+nav a {
+    padding: 0 7px 0 7px;
+    color: white;
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(255, 255, 255, 0.815);
+    padding: 30px;
+    margin: 20px;
+    width: 200px;
+    height: 250px;
+    transition: all 0.3s ease-out;
+    background-color: white;
+}
+
+.card-titulo {
+    text-align: center;
+    justify-content: center;
+    font-style: italic;
+    margin-top: 0;
+}
+
+.imagem {
+    border-radius: 5px;
+    height: 120px;
+}
+
+.card-paragrafo {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.secao-sobrenos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-sobrenos {
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(255, 255, 255, 0.815);
+    padding: 20px;
+    margin: 20px;
+    width: 800px;
+    transition: all 0.3s ease-out;
+    background-color: white;
+}
+
+.card-sobrenos-titulo {
+    text-align: center;
+    justify-content: center;
+    font-style: italic;
+    margin-top: 0;
+    font-size: 40px;
+}
+
+.card-sobrenos-paragrafo {
+    font-size: 18px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
