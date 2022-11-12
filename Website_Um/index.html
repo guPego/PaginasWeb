@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./css/style.css" rel="stylesheet">
-    <link href="./css/carrossel.css" rel="stylesheet">
+    <link href="./css/modal.css" rel="stylesheet">
     <title>Restaurante do Pego</title>
 </head>
 
 <body>
+
     <header>
         <div class="logo">
             <img src="./img/logo_restaurante_2.jfif" alt="Logo do restaurante" class="logo-nav">
@@ -19,45 +20,112 @@
         <nav>
             <a href="#">Início</a>
             <a href="#cardapio">Cardápio</a>
-            <a href="#">Sobre nós</a>
+            <a href="#sobrenos">Sobre nós</a>
+            <a href="#contato">Contato</a>
         </nav>
     </header>
+
+    
 
     <div class="background-tela">
         <div class="background-text">
             <h1 class="background-titulo titulo-um" style="opacity: 1;">a La Pego</h1>
-            <h1 class="background-titulo" style="opacity: 1;">O melhor restaurante da região, a mais de 50 anos servinco você!</h1>
+            <h1 class="background-titulo" style="opacity: 1;">O melhor restaurante da região, a mais de 50 anos servinco
+                você!</h1>
         </div>
     </div>
 
-    <div class="row" id="cardapio">
-        <div class="card">
-            <h2 class="card-titulo">Feijoada</h2>
-            <img class="imagem" src="./img/feijoada.jfif" alt="Feijoada" width="200" />
-            <p class="card-paragrafo">Prato típico de feijoada.</p>
-        </div>
+    <section class="secao-cardapio">
+        <div class="row" id="cardapio">
+            <div class="card">
+                <h2 class="card-titulo">Feijoada</h2>
+                <img class="imagem" src="./img/feijoada.jfif" alt="Feijoada" width="200" />
+                <p class="card-paragrafo">Prato típico de feijoada.</p>
+            </div>
 
-        <div class="card">
-            <h2 class="card-titulo">Prato feito</h2>
-            <img class="imagem" src="./img/prato_feito.jfif" alt="Prato feito" width="200" />
-            <p class="card-paragrafo">Prato feito, típico de Minas Gerais.</p>
-        </div>
+            <div class="card">
+                <h2 class="card-titulo">Prato feito</h2>
+                <img class="imagem" src="./img/prato_feito.jfif" alt="Prato feito" width="200" />
+                <p class="card-paragrafo">Prato feito, típico de Minas Gerais.</p>
+            </div>
 
-        <div class="card">
-            <h2 class="card-titulo">Tropeiro</h2>
-            <img class="imagem" src="./img/tropeiro.jfif" alt="Tropeiro" width="200" />
-            <p class="card-paragrafo">Típico tropeiro, um dos melhores pratos.</p>
-        </div>
-    </div>
+            <div class="card">
+                <h2 class="card-titulo">Tropeiro</h2>
+                <img class="imagem" src="./img/tropeiro.jfif" alt="Tropeiro" width="200" />
+                <p class="card-paragrafo">Típico tropeiro, um dos melhores pratos.</p>
+            </div>
 
-    <section class="secao-sobrenos">
+            <div class="card">
+                <h2 class="card-titulo">Tutu</h2>
+                <img class="imagem" src="./img/tutu.jfif" alt="Tropeiro" width="200" />
+                <p class="card-paragrafo">Saboroso tutu quando é cozido, temperado, batido e misturado com farinha de
+                    milho ou de mandioca.</p>
+            </div>
+
+            <div class="card">
+                <h2 class="card-titulo">Strogonoff</h2>
+                <img class="imagem" src="./img/strogonoff.jfif" alt="Tropeiro" width="200" />
+                <p class="card-paragrafo">Cubos de frango servidos num molho de creme de leite.</p>
+            </div>
+
+            <div class="card">
+                <h2 class="card-titulo">Churrasco</h2>
+                <img class="imagem" src="./img/churrasco.jfif" alt="Tropeiro" width="200" />
+                <p class="card-paragrafo">Carne in natura ou processada, assada sobre o fogo ou brasas.</p>
+            </div>
+
+            <div class="card">
+                <h2 class="card-titulo">Frango com quiabo</h2>
+                <img class="imagem" src="./img/fragon_quiabo.jfif" alt="Tropeiro" width="200" />
+                <p class="card-paragrafo">A mistura desses dois ingredientes rende um dos pratos mais clássicos para os
+                    mineiros.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao-sobrenos" id="sobrenos">
         <div class="card-sobrenos">
             <h2 class="card-sobrenos-titulo">Sobre nós</h2>
-            <p class="card-sobrenos-paragrafo">O Restaurante é um estabelecimento público no qual se reúnem todos os
-                dias garçons, gordos, casais, homens que moram só e não sabem cozinhar, baratas, ratos, aranhas, moscas,
-                galinhas mortas, bois mortos dentre vários outros tipos de seres vivos e mortos. Todos eles se reúnem no
-                restaurante ou para preparar comida para fazer os outros engordarem, ou para comer e engordar, ou para
-                preparar comida para fazer os outros engordarem e comer e engordar escondido do patrão.</p>
+            <div class="card-sobrenos-conteudo">
+                <p class="card-sobrenos-paragrafo">O Restaurante é um estabelecimento público no qual se reúnem todos os
+                    dias garçons, gordos, casais, homens que moram só e não sabem cozinhar, baratas, ratos, aranhas, moscas,
+                    galinhas mortas, bois mortos dentre vários outros tipos de seres vivos e mortos. Todos eles se reúnem no
+                    restaurante ou para preparar comida para fazer os outros engordarem, ou para comer e engordar, ou para
+                    preparar comida para fazer os outros engordarem e comer e engordar escondido do patrão.</p>
+                <iframe style="border:1px solid black" width="100%" height="300" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15002.716332020282!2d-44.0362353!3d-19.9379239!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xca75cdd5bbcad1d6!2sFaculdade%20Senac%20-%20Contagem!5e0!3m2!1spt-BR!2sbr!4v1668212818178!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="secao-contato" id="contato">
+        <div class="card-contato">
+            <h2 class="card-contato-titulo">Contato</h2>
+            <form class="formulario-contato">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" height="1" size="3" placeholder="Digite um nome">
+
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email" placeholder="Digite seu e-mail">
+
+                <label for="estado">Estado</label>
+                <select name="estado">
+                    <option value="">Selecione um estado</option>
+                    <option value="mg">Minas Gerais</option>
+                    <option value="sp">São Paulo</option>
+                    <option value="es">Espírito Santos</option>
+                    <option value="rj">Rio de Janeiro</option>
+                </select>
+                
+                <label for="cidade">Cidade</label>
+                <input type="text" id="cidade" name="cidade" placeholder="Digite sua cidade">
+
+                <label for="assunto">Assunto</label>
+                <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
+                <div class="contato-botao">
+                    <button class="glow-on-hover botao botao-reset" type="reset">Limpar formulário</button>
+                    <button class="glow-on-hover botao botao-submit" type="submit">Enviar contato</button>
+                </div>
+            </form>
         </div>
     </section>
 
@@ -66,12 +134,12 @@
             <adress>
                 Rua Paineiras - 1300<br>
                 Eldorado, MG.
-              </adress>
+            </adress>
         </div>
         <p class="footer-restaurante">&#169 a La Pego</p>
     </footer>
 </body>
 
-<script src="./js/carrossel.js"></script>
+<script></script>
 
 </html>
